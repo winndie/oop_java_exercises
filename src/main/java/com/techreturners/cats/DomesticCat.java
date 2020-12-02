@@ -1,24 +1,15 @@
 package com.techreturners.cats;
 
-class DomesticCat implements Cat {
+class DomesticCat extends Animal implements Cat {
         
-        @Override
-        public boolean isAsleep(){return isAsleep;}
+    public DomesticCat(){
 
-        @Override
-        public void goToSleep(){ isAsleep = true; return ;}
+            this.isAsleep = false;
+            this.averageHeight = 23;
+            this.setting = "domestic";
+            this.burp = "Purrrrrrr";
 
-        @Override
-        public String getSetting(){return "";}
-
-        @Override
-        public void wakeUp(){return ;}
-
-        @Override
-        public String eat(){return "";}
-
-        @Override
-        public int getAverageHeight(){return 0;}
+    }
 }
 
 
