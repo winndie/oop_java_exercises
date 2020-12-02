@@ -1,5 +1,9 @@
 package com.techreturners.cats;
 
-interface Cat {
+interface Cat{
+
+    boolean isAsleep();
+
+    int getAverageHeight();
 
 }
